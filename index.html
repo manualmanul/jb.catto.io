@@ -1,9 +1,48 @@
-<pre><center>
-<title>repo.me</title> <!-- Change this to your alias or repo name! -->
-<h1>repo.me</h1> <!-- Change this to your alias or repo name! -->
-<li>Add to <a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://REPLACEHERE">Cydia</a></li> <!-- Put your repo URL in REPLACEHERE, remove this comment. -->
-<li>Add to <a class="btn btn-sm btn-default" href="installer://add/https://REPLACEHERE">Installer</a></li> <!-- Put your repo URL in REPLACEHERE, remove this comment. -->
-<li>Add to <a class="btn btn-sm btn-default" href="sileo://source/https://REPLACEHERE">Sileo</a></li> <!-- Put your repo URL in REPLACEHERE, remove this comment. -->
-<li>Add to <a class="btn btn-sm btn-default" href="zbra://sources/add/https://REPLACEHERE">Zebra</a></li> <!-- Put your repo URL in REPLACEHERE, remove this comment. -->
-thanks for using <a class="btn btn-sm btn-default" href="https://github.com/syns/repo.me">repo.me</a> by syns! <!-- This can be removed, but I'd appreciate if this was left or edited to still include the link to repo.me! -->
-</center></pre>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual's Repo</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <div>
+                <a href="/" style="text-decoration: none;">
+                    <img src="img/filecat.png" id="icon" alt="Website Icon" />
+                </a>
+                <p style="font-weight: bold;">Manual's Repo</p>
+            </div>
+
+            <form action="cydia://url/https://cydia.saurik.com/api/share#?source=https://jb.catto.io" method="GET">
+                <input type="submit" class="fadeIn first" value="Cydia">
+            </form>
+
+            <form action="zbra://sources/add/https://jb.catto.io" method="GET">
+                <input type="submit" class="fadeIn second" value="Zebra">
+            </form>
+
+            <form action="sileo://source/https://jb.catto.io" method="GET">
+                <input type="submit" class="fadeIn third" value="Sileo">
+            </form>
+
+            <div class="fadeIn third subtext">
+                Alternatively, <a href="https://github.com/manualmanul/jb.catto.io/tree/master/debians">browse the repository directly</a>.
+            </div>
+
+            <br>
+
+            <div id="formFooter">
+                <a class="underlineHover" href="https://twitter.com/manualmanul">(c) Manual 2020</a>
+                <p><a class="underlineHover" href="https://github.com/manualmanul/jb.catto.io">GitHub</a></p>
+            </div>
+        </div>
+</body>
+
+</html>

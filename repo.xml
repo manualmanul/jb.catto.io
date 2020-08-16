@@ -1,14 +1,19 @@
 <repo>
     <footerlinks>
         <link>
-            <name>Follow me on Twitter</name>
-            <url>https://twitter.com/truesyns</url>
-            <iconclass>glyphicon glyphicon-user</iconclass>
+            <name>Check out my blog</name>
+            <url>https://catto.io</url>
+            <iconclass>glyphicon glyphicon-comment</iconclass>
         </link>
         <link>
-            <name>I want this depiction template</name>
-            <url>https://github.com/syns/repo.me</url>
-            <iconclass>glyphicon glyphicon-thumbs-up</iconclass>
+            <name>I'm also on Twitter</name>
+            <url>https://twitter.com/manualmanul</url>
+            <iconclass>glyphicon glyphicon-bullhorn</iconclass>
+        </link>
+        <link>
+            <name>GitHub Repo</name>
+            <url>https://github.com/manualmanul/jb.catto.io</url>
+            <iconclass>glyphicon glyphicon-asterisk</iconclass>
         </link>
     </footerlinks>
 </repo>
