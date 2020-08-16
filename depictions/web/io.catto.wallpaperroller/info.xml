@@ -17,22 +17,22 @@
 		<description></description>
 		<description>Installation guide:</description>
 		<description><![CDATA[
-		1. Install WallpaperRoller\n
-		2. Put your images or MP4 videos into /var/mobile/Library/WR_Pictures;\n
-		3. Reinstall WallpaperRoller to update the image list;\n
-		4. Once reinstalled, add the background in Xen HTML settings;\n
-		5. If WR is set as a lockscreen background, go into Xen HTML lockscreen settings -> Advanced -> Turn on Persistent Mode;\n
+		1. Install WallpaperRoller<br/>
+		2. Put your images or MP4 videos into /var/mobile/Library/WR_Pictures;<br/>
+		3. Reinstall WallpaperRoller to update the image list;<br/>
+		4. Once reinstalled, add the background in Xen HTML settings;<br/>
+		5. If WR is set as a lockscreen background, go into Xen HTML lockscreen settings -> Advanced -> Turn on Persistent Mode;<br/>
 		6. If desired, configure the additional settings.
 		]]>
 		</description>
 		<description></description>
 		<description>Detailed description of options:</description>
 		<description><![CDATA[
-		Change Interval: in minutes, how often to refresh the wallpaper. Updates only happen when the wallpaper is invoked.\n
-		Shake sensitivity: shake the device to immediately change the wallpaper. Smaller number: higher sensitivity.\n
-		Enable online images: enable pulling images from a booru API like e926.net\n
-		Connection check URL: enter IP:PORT of any local WiFi device, for example a router at 192.168.1.1:80. This will disable online images when not on WiFi. Leave blank to only use online images.\n
-		Online API URL: booru API url to poll. Must return data in the following format: {posts: [tags: ["cute", "sfw"], file: [url: "https://..."]]}\n
+		Change Interval: in minutes, how often to refresh the wallpaper. Updates only happen when the wallpaper is invoked.<br/>
+		Shake sensitivity: shake the device to immediately change the wallpaper. Smaller number: higher sensitivity.<br/>
+		Enable online images: enable pulling images from a booru API like e926.net<br/>
+		Connection check URL: enter IP:PORT of any local WiFi device, for example a router at 192.168.1.1:80. This will disable online images when not on WiFi. Leave blank to only use online images.<br/>
+		Online API URL: booru API url to poll. Must return data in the following format: {posts: [tags: ["cute", "sfw"], file: [url: "https://..."]]}<br/>
 		Blacklisted tags: remove posts that have these tags. Must be comma separated, no spaces.
 		]]>
 		</description>
