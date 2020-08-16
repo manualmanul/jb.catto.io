@@ -19,7 +19,7 @@
 		<description><![CDATA[
 		1. Install WallpaperRoller;<br/>
 		2. Put your images or MP4 videos into /var/mobile/Library/WR_Pictures;<br/>
-		3. Reinstall WallpaperRoller to update the image list;<br/>
+		3. Run wr-rescan from a terminal or an SSH session;<br/>
 		4. Add Wallpaper Roller as a background in Xen HTML settings;<br/>
 		5. Enable persistent mode by going into Xen HTML lockscreen settings -> Advanced -> Turn on Persistent Mode;<br/>
 		6. If desired, configure the additional settings.
