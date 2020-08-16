@@ -1,14 +1,14 @@
 {
 	"minVersion": "0.1",
-	"headerImage": "https://jb.catto.io/assets/repo/Banners/RepoHeader.png",
-	"tintColor": "#ffae8e",
+	"headerImage": "https://jb.catto.io/depictions/native/io.catto.wallpaperroller/header.png",
+	"tintColor": "#87ebed",
 	"tabs": [
 		{
 			"tabname": "Details",
 			"views": [
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "# WallpaperRoller\n\nWallpaper Roller is a Xen HTML background that will rotate a set of images on a regular basis. You can use JPEG, PNG and even GIF and MP4 files, or use any compatible booru website to pull images from the internet.\n\n## Installation guide\n\n1. Install WallpaperRoller\n2. Put your images or MP4 videos into /var/mobile/Library/WR_Pictures;\n3. Reinstall WallpaperRoller to update the image list;\n4. Once reinstalled, add the background in Xen HTML settings;\n5. If WR is set as a lockscreen background, go into Xen HTML lockscreen settings -> Advanced -> Turn on Persistent Mode;\n6. If desired, configure the additional settings.\n\n## Detailed description of options\n\nChange Interval: in minutes, how often to refresh the wallpaper. Updates only happen when the wallpaper is invoked.\nShake sensitivity: shake the device to immediately change the wallpaper. Smaller number: higher sensitivity.\nEnable online images: enable pulling images from a booru API like e926.net\nConnection check URL: enter IP:PORT of any local WiFi device, for example a router at 192.168.1.1:80. This will disable online images when not on WiFi. Leave blank to only use online images.\nOnline API URL: booru API url to poll. Must return data in the following format: {posts: [tags: [\"cute\", \"sfw\"], file: [url: \"https://...\"]]}\nBlacklisted tags: remove posts that have these tags. Must be comma separated, no spaces.\n\n"
+					"markdown": "# WallpaperRoller\n\nWallpaper Roller is a Xen HTML background that will rotate a set of images on a regular basis. You can use JPEG, PNG and even GIF and MP4 files, or use any compatible Danbooru website to pull images from the internet.\n\n## Installation guide\n\n1. Install WallpaperRoller;\n2. Put your images or MP4 videos into /var/mobile/Library/WR_Pictures;\n3. Reinstall WallpaperRoller to update the image list;\n4. Once reinstalled, add the background in Xen HTML settings;\n5. Enable persistent mode by going into Xen HTML lockscreen settings -> Advanced -> Turn on Persistent Mode;\n6. If desired, configure the additional settings.\n\n## Detailed description of options\n\nChange Interval: in minutes, how often to refresh the wallpaper. Updates only happen when the wallpaper becomes visible.\nShake sensitivity: shake the device to immediately change the wallpaper. Smaller number: higher sensitivity.\nEnable online images: enable pulling images from a Danbooru API like e926.net\nConnection check URL: enter IP:PORT of any local WiFi device, for example a router at 192.168.1.1:80. This will disable online images when not on WiFi. Leave blank to only use online images.\nOnline API URL: Danbooru API url to poll. Must return data in the following format: {posts: [tags: [\"cute\", \"sfw\"], file: [url: \"https://...\"]]}\nBlacklisted tags: remove posts that have these tags. Must be comma separated, no spaces.\n\n"
 				},
 				{
 					"class": "DepictionSeparatorView"

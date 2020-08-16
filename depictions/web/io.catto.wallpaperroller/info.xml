@@ -13,26 +13,26 @@
 	</dependencies>
 	<shortDescription>Roll your own dynamic wallpaper</shortDescription>
 	<descriptionlist>
-		<description>Wallpaper Roller is a Xen HTML background that will rotate a set of images on a regular basis. You can use JPEG, PNG and even GIF and MP4 files, or use any compatible booru website to pull images from the internet.</description>
+		<description>Wallpaper Roller is a Xen HTML background that will rotate a set of images on a regular basis. You can use JPEG, PNG and even GIF and MP4 files, or use any compatible Danbooru website to pull images from the internet.</description>
 		<description></description>
 		<description>Installation guide:</description>
 		<description><![CDATA[
-		1. Install WallpaperRoller<br/>
+		1. Install WallpaperRoller;<br/>
 		2. Put your images or MP4 videos into /var/mobile/Library/WR_Pictures;<br/>
 		3. Reinstall WallpaperRoller to update the image list;<br/>
-		4. Once reinstalled, add the background in Xen HTML settings;<br/>
-		5. If WR is set as a lockscreen background, go into Xen HTML lockscreen settings -> Advanced -> Turn on Persistent Mode;<br/>
+		4. Add Wallpaper Roller as a background in Xen HTML settings;<br/>
+		5. Enable persistent mode by going into Xen HTML lockscreen settings -> Advanced -> Turn on Persistent Mode;<br/>
 		6. If desired, configure the additional settings.
 		]]>
 		</description>
 		<description></description>
 		<description>Detailed description of options:</description>
 		<description><![CDATA[
-		Change Interval: in minutes, how often to refresh the wallpaper. Updates only happen when the wallpaper is invoked.<br/>
+		Change Interval: in minutes, how often to refresh the wallpaper. Updates only happen when the wallpaper becomes visible.<br/>
 		Shake sensitivity: shake the device to immediately change the wallpaper. Smaller number: higher sensitivity.<br/>
-		Enable online images: enable pulling images from a booru API like e926.net<br/>
-		Connection check URL: enter IP:PORT of any local WiFi device, for example a router at 192.168.1.1:80. This will disable online images when not on WiFi. Leave blank to only use online images.<br/>
-		Online API URL: booru API url to poll. Must return data in the following format: {posts: [tags: ["cute", "sfw"], file: [url: "https://..."]]}<br/>
+		Enable online images: enable pulling images from a Danbooru API like e926.net<br/>
+		Connection check URL: enter IP:PORT of any local WiFi device with a webserver, for example a router at 192.168.1.1:80. This will disable online images when not on WiFi. Leave blank to only use online images.<br/>
+		Online API URL: Danbooru API url to poll. Must return data in the following format: {posts: [tags: ["cute", "sfw"], file: [url: "https://..."]]}<br/>
 		Blacklisted tags: remove posts that have these tags. Must be comma separated, no spaces.
 		]]>
 		</description>
