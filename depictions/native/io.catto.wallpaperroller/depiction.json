@@ -77,6 +77,22 @@
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				}
+				{
+					"title": "1.1.0",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\n\u2022 Added option to fade when switching images",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 27.08.2020</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				}
 			],
 			"class": "DepictionStackView"
 		}
