@@ -62,19 +62,19 @@
 			"tabname": "Changelog",
 			"views": [
 				{
-					"title": "1.0.0",
+					"title": "1.1.1",
 					"useBoldText": true,
 					"useBottomMargin": true,
 					"class": "DepictionSubheaderView"
 				},
 				{
-					"markdown": "\t\n\u2022 Initial release",
+					"markdown": "\t\n\u2022 Hotfix for upgrades not working",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
 				{
-					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 16.08.2020</small>",
-					"useRawFormat": true,
+					"markdown": "\t\n\u2022 Avoid loading online images when in Xen settings",
+					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
 				{
@@ -94,23 +94,23 @@
 					"class": "DepictionMarkdownView"
 				},
 				{
-					"title": "1.1.1",
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 27.08.2020</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"title": "1.0.0",
 					"useBoldText": true,
 					"useBottomMargin": true,
 					"class": "DepictionSubheaderView"
 				},
 				{
-					"markdown": "\t\n\u2022 Hotfix for upgrades not working",
+					"markdown": "\t\n\u2022 Initial release",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
 				{
-					"markdown": "\t\n\u2022 Avoid loading online images when in Xen settings",
-					"useSpacing": false,
-					"class": "DepictionMarkdownView"
-				},
-				{
-					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 27.08.2020</small>",
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 16.08.2020</small>",
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				}

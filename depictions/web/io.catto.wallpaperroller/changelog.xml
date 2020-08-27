@@ -1,15 +1,15 @@
 <changelog>
 	<changes>
-		<version>1.0.0</version>
-		<change>Initial Release</change>
+		<version>1.1.1</version>
+		<change>Hotfix for upgrades not working</change>
+		<change>Avoid loading online images when in Xen settings</change>
 	</changes>
 	<changes>
 		<version>1.1.0</version>
 		<change>Added option to fade when switching images</change>
 	</changes>
 	<changes>
-		<version>1.1.1</version>
-		<change>Hotfix for upgrades not working</change>
-		<change>Avoid loading online images when in Xen settings</change>
+		<version>1.0.0</version>
+		<change>Initial Release</change>
 	</changes>
 </changelog>
