@@ -62,6 +62,22 @@
 			"tabname": "Changelog",
 			"views": [
 				{
+					"title": "1.1.3",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\n\u2022 Fixed \"Shake to load online images\" showing up even in local mode",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 29.08.2020</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
+				{
 					"title": "1.1.2",
 					"useBoldText": true,
 					"useBottomMargin": true,
