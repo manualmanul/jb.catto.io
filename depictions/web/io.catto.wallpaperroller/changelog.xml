@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>1.1.4</version>
+		<change>Added an option to pause when in LPM</change>
+		<change>Fixed broken installation scripts from previous versions</change>
+	</changes>
+	<changes>
 		<version>1.1.3</version>
 		<change>Fixed "Shake to load online images" showing up even in local mode</change>
 	</changes>
